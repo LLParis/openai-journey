@@ -5,7 +5,7 @@
   <a href="[your website]">Portfolio</a> •
   <a href="[your blog]">Blog</a> •
   <a href="[your twitter]">Twitter</a> •
-  <a href="[your linkedin]">LinkedIn</a>
+  <a href="www.linkedin.com/in/londonparis">LinkedIn</a>
 </p>
 
 <!-- Dynamic header SVG animation -->
@@ -40,7 +40,7 @@
                 }
             </style>
             <div class="container">
-                <h1>[Your Name]</h1>
+                <h1>London</h1>
             </div>
         </div>
     </foreignObject>
@@ -60,7 +60,7 @@ MLOps & DevOps     ████████████████░░░░ 
 </div>
 <!-- Advanced GitHub Stats with Animations -->
 <div align="center">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=[username]&theme=radical" alt="GitHub Streak"/>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=LLParis&theme=radical" alt="GitHub Streak"/>
 </div>
 <!-- Activity Graph -->
 Show Image
@@ -71,7 +71,7 @@ Show Image
 <!-- Animated Project Cards -->
 <div align="center">
     <a href="[project-link]">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=[username]&repo=[repo-name]&theme=radical&show_owner=true" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LLParis&repo=[repo-name]&theme=radical&show_owner=true" />
     </a>
 </div>
 <!-- Workflow Stats Visualization -->
@@ -88,10 +88,10 @@ mermaidCopygantt
 <table>
   <tr>
     <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=[username]&theme=radical" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LLParis&theme=radical" />
     </td>
     <td>
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=[username]&theme=radical" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LLParis&theme=radical" />
     </td>
   </tr>
 </table>
