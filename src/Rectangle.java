@@ -31,6 +31,12 @@ public class Rectangle {
      * @param width of the Rectangle
      */
     public Rectangle(double length, double width) {
+        if (length < 0) {
+            throw new IllegalArgumentException("Length must be a positive value.");
+        }
+        if (width < 0) {
+            throw new IllegalArgumentException("Width must be a positive value.");
+        }
         this.length = length;
         this.width = width;
     }

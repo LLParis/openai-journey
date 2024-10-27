@@ -50,7 +50,7 @@ public class RectangleTest {
     @Test
     public void testToString() {
         Rectangle rectangle = new Rectangle(8.0, 1.5);
-        assertEquals("Rectangle(Length = 8.0, Width = 1.5", rectangle.toString());
+        assertEquals("Rectangle(Length = 8.0, Width = 1.5)", rectangle.toString());
     }
 
     @Test
