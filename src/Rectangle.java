@@ -103,16 +103,15 @@ public class Rectangle {
      */
     @Override
     public boolean equals(Object obj) {
-        if (obj == null) {
-            return false;
+        if (this == obj) {
+            return true;
         }
-        if (getClass() != obj.getClass()) {
+        if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
 
         Rectangle other = (Rectangle) obj;
         return Double.compare(this.length, other.length) == 0 && Double.compare(this.width, other.width) == 0;
-
     }
 
     /**

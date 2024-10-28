@@ -1,9 +1,17 @@
+import java.util.*;
+
 public class Foundations {
 
     public static void main(String[] args) {
-        int[] input = {1, 2, 3, 4, 5};
-        int[] input2 = {}
-        System.out.println("The total sum of this array of integers is: " + arraySum(input));
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        int a = input.nextInt();
+        System.out.println("Enter the second number");
+        int b = input.nextInt();
+
+        int[] arr = {1, 2, 3, 4, 5};
+
+        System.out.println("The total sum of this array of integers is: " + arraySum(arr));
     }
 
     public static long arraySum(int[] arr) {
@@ -22,5 +30,9 @@ public class Foundations {
             }
         }
         return new int[0];
+    }
+
+    public int sumOfTwoIntegers(int a, int b) {
+       return a + b;
     }
 }
