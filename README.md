@@ -27,47 +27,16 @@ SETUP INSTRUCTIONS:
     2. Adjust font-size if needed
     3. Modify gradient colors in the background property
   -->
-  <svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
-      <foreignObject width="100%" height="100%">
-          <div xmlns="http://www.w3.org/1999/xhtml">
-              <style>
-                  @keyframes gradientText {
-                      0% {
-                          background-position: 0% 50%;
-                      }
-                      50% {
-                          background-position: 100% 50%;
-                      }
-                      100% {
-                          background-position: 0% 50%;
-                      }
-                  }
-                  .container {
-                      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-                      display: flex;
-                      flex-direction: column;
-                      align-items: center;
-                      justify-content: center;
-                      margin: 0;
-                      width: 100%;
-                      height: 100px;
-                  }
-                  h1 {
-                      font-size: 50px;
-                      letter-spacing: 2px;
-                      background: linear-gradient(to right, #00ff87, #60efff);
-                      -webkit-background-clip: text;
-                      background-clip: text;
-                      -webkit-text-fill-color: transparent;
-                      background-size: 200% auto;
-                      animation: gradientText 3s ease infinite;
-                  }
-              </style>
-              <div class="container">
-                  <h1>London</h1>
-              </div>
-          </div>
-      </foreignObject>
+  <svg viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#00ff87;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#60efff;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="50" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" fill="url(#gradient)">
+      London
+    </text>
   </svg>
 </div>
 
