@@ -19,7 +19,7 @@ SETUP INSTRUCTIONS:
   <a href="https://www.linkedin.com/in/londonparis">LinkedIn</a>
 </p>
 
-<!-- Dynamic header SVG animation -->
+<!-- Dynamic header SVG -->
 <div align="center">
   <!-- 
     To update the animated name:
