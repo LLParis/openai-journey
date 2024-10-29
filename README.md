@@ -1,3 +1,13 @@
+<!-- 
+SETUP INSTRUCTIONS:
+1. Create a new repository with your GitHub username as the repo name (e.g., username/username)
+2. Copy this entire content into the README.md file
+3. Replace all instances of 'LLParis' with your GitHub username
+4. Update the personal links (Portfolio, Blog, Twitter, LinkedIn)
+5. Customize the tech stack by modifying the URL parameters in the Tech Stack image
+6. Make sure your GitHub account has public activity to show the stats widgets
+-->
+
 <!-- Header Image -->
 <h1 align="center">Hi, I'm London 👋</h1>
 <h3 align="center">MLOps Engineer & AI Researcher crafting the future of intelligent systems</h3>
@@ -11,14 +21,26 @@
 
 <!-- Dynamic header SVG animation -->
 <div align="center">
+  <!-- 
+    To update the animated name:
+    1. Replace 'London' in the h1 tag below
+    2. Adjust font-size if needed
+    3. Modify gradient colors in the background property
+  -->
   <svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
       <foreignObject width="100%" height="100%">
           <div xmlns="http://www.w3.org/1999/xhtml">
               <style>
                   @keyframes gradientText {
-                      0% { background-position: 0% 50%; }
-                      50% { background-position: 100% 50%; }
-                      100% { background-position: 0% 50%; }
+                      0% {
+                          background-position: 0% 50%;
+                      }
+                      50% {
+                          background-position: 100% 50%;
+                      }
+                      100% {
+                          background-position: 0% 50%;
+                      }
                   }
                   .container {
                       font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -49,7 +71,7 @@
   </svg>
 </div>
 
-<!-- Skill Bars -->
+<!-- Skill Bars - Edit the percentages and skills as needed -->
 <h3 align="center">💻 Technical Proficiency</h3>
 <div align="center">
 
@@ -63,17 +85,34 @@ MLOps & DevOps     [██████████████████░░
 
 </div>
 
-<!-- GitHub Stats -->
+<!-- 
+GitHub Stats Widget Setup:
+1. No account needed
+2. Stats automatically update based on your GitHub activity
+3. Replace 'LLParis' with your GitHub username in all image URLs
+4. The widgets will automatically fetch data from your public repositories
+-->
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=LLParis&theme=radical" alt="GitHub Streak"/>
 </div>
 
-<!-- Tech Stack -->
+<!-- 
+Tech Stack Widget Setup:
+1. Edit the URL parameters to match your tech stack
+2. Parameters are organized by line (line1, line2, line3)
+3. Format: technology,label,color
+4. Example: python,python,61DAFB
+-->
 <div align="center">
   <img src="https://github-readme-tech-stack.vercel.app/api/cards?title=Tech+Stack&align=center&titleAlign=center&lineCount=3&theme=github_dark&line1=python,python,61DAFB;pytorch,pytorch,DD0031;tensorflow,tensorflow,43853D&line2=kubernetes,kubernetes,61DAFB;docker,docker,DD0031;aws,aws,43853D&line3=cpp,c%2B%2B,61DAFB;rust,rust,DD0031;ocaml,ocaml,43853D" alt="Tech Stack" />
 </div>
 
-<!-- Featured Projects -->
+<!-- 
+Featured Projects Setup:
+1. Replace repo names in the URLs with your actual repository names
+2. Stats cards automatically update based on repository activity
+3. Format: username/repository-name
+-->
 <div align="center">
   <a href="https://github.com/LLParis/DistributedLLMTraining">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=LLParis&repo=DistributedLLMTraining&theme=radical&show_owner=true" alt="Distributed LLM Training"/>
@@ -83,7 +122,12 @@ MLOps & DevOps     [██████████████████░░
   </a>
 </div>
 
-<!-- Project Timeline -->
+<!-- 
+Mermaid Timeline Setup:
+1. Update dates and project names
+2. Follow the format: YYYY-MM-DD
+3. Duration is specified in days (e.g., 30d)
+-->
 ```mermaid
 gantt
     title Current Project Timeline
@@ -96,12 +140,23 @@ gantt
     Optimization       : 2023-11-25, 30d
 ```
 
-<!-- GitHub Profile Summary -->
+<!-- 
+Profile Summary Cards Setup:
+1. No account needed
+2. Replace 'LLParis' with your GitHub username
+3. Cards automatically update based on your GitHub activity
+-->
 <div align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=LLParis&theme=radical" alt="Profile Details"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=LLParis&theme=radical" alt="Top Languages"/>
 </div>
 
+<!-- 
+Featured Projects Details Setup:
+1. Update project titles, descriptions, and links
+2. Replace placeholder images with actual project screenshots
+3. Format: Upload images to your repo and update the img src
+-->
 <details>
 <summary>🔥 Featured Projects</summary>
 <br>
