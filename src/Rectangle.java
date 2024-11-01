@@ -84,7 +84,7 @@ public class Rectangle {
     }
 
     /**
-     * Clone method to create a deep copy of the rectangle
+     * Clone method to create a deep copy of the rectangle.
      * @return a deep copy of the current object
      */
     public Rectangle clone() {
