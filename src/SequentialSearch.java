@@ -1,3 +1,9 @@
+/**
+ * Class for the purpose of exploring sequential search and practicing implementation.
+ *
+ * @author London Paris
+ */
+
 import java.util.*;
 
 public class SequentialSearch {
