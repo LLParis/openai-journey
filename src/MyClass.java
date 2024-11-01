@@ -3,7 +3,6 @@ public class MyClass {
     private int aField;
     private static int objectCount = 0; // Static field to count objects
 
-
     /**
      * Parameterized constructor
      * @param a The initial value for the 'a' field.
