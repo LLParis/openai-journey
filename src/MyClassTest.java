@@ -54,6 +54,7 @@ public class MyClassTest {
         MyClass myClass1 = new MyClass();
         MyClass myClass2 = new MyClass();
         MyClass myClass3 = new MyClass();
+
         assertEquals(3, MyClass.getObjectCount());
     }
 }
